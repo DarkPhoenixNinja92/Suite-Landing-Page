@@ -20,6 +20,14 @@ header {
     margin-top: 1em;
 }
 
+.second-btn {
+    background-color: #172339;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 2.25em;
+}
+
 .info-div,.companies,.languages,.leads {
     display: flex;
     flex-direction: column;
@@ -27,10 +35,41 @@ header {
     justify-content: center;
 }
 
+.company-title,.language-title,.lead-title {
+    font-size: 42px;
+}
+
+.companies-txt,.languages-txt,.leads-txt {
+    font-size: 25px;
+}
+
 .lower {
     background-color: #172339;
     color: #fff;
     border-radius: 10px;
+    margin-top: 19em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.lower img {
+    position: relative;
+    bottom: 15em;
+}
+
+.works {
+    font-size: 42px;
+}
+
+.works span {
+    font-weight: bold;
+}
+
+.lower-txt {
+    width: 75%;
 }
 
 footer {
@@ -47,4 +86,8 @@ footer {
 
 .copy {
     margin: 3em auto 3em auto;
+}
+
+@media (min-width: 768px) {
+    
 }
