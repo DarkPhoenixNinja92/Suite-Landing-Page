@@ -20,6 +20,10 @@ header {
     margin-top: 1em;
 }
 
+.hero-tablet {
+    display: none;
+}
+
 .second-btn {
     background-color: #172339;
     color: #fff;
@@ -89,5 +93,50 @@ footer {
 }
 
 @media (min-width: 768px) {
-    
+    .hero-mobile {
+        display: none;
+    }
+    .hero-tablet {
+        display: initial;
+        position: absolute;
+        right: 0.8em;
+
+    }
+
+    .title {
+        position: relative;
+        z-index: 50;
+        top: 20vh;
+        width: 90%;
+        font-size: 65px;
+    }
+
+    .hero-tablet,.title {
+        top: 25vh;
+    }
+
+    .info-div {
+        margin-top: 45vh;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .para {
+        position: relative;
+        top: 28vh;
+        width: 50%;
+        font-size: 22px;
+    }
+
+    .second-btn {
+        position: relative;
+        top: 32vh;
+    }
+
+    footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }
