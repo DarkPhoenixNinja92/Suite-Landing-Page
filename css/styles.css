@@ -59,6 +59,10 @@ header {
     margin-bottom: 3em;
 }
 
+.jeremy-desktop {
+    display: none;
+}
+
 .lower img {
     position: relative;
     bottom: 15em;
@@ -177,5 +181,50 @@ footer {
         margin: 0;
         position: relative;
         bottom: 20vh;
+        padding-bottom: -50px;
+    }
+
+    .second-btn:hover {
+        background-color: #A060FF;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .jeremy-mobile {
+        display: none;
+    }
+
+    .jeremy-desktop {
+        display: initial;
+        position: relative;
+        right: 17em;
+        width: 60%;
+    }
+
+    .works {
+        position: relative;
+        left: 10em;
+        bottom: 27em;
+        font-size: 50px;
+    }
+
+    .lower-txt {
+        font-size: 25px;
+        width: 30%;
+        position: relative;
+        bottom: 110vh;
+        left: 34vw;
+    }
+
+    .name,.corporate-title {
+        text-transform: uppercase;
+        font-size: 25px;
+        position: relative;
+        bottom: 105vh;
+        left: 32vw;
+    }
+
+    .corporate-title {
+        bottom: 108vh;
     }
 }
