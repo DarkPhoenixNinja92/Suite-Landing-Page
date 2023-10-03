@@ -140,3 +140,42 @@ footer {
         justify-content: space-evenly;
     }
 }
+
+@media (min-width: 1440px) {
+    .title {
+        width: 35%;
+    }
+
+    .para {
+        width: 25%;
+    }
+
+    .title {
+        margin-left: 1.25em;
+    }
+
+    .para {
+        margin-left: 3.5em;
+    }
+
+    .second-btn {
+        margin-left: 5.5em;
+    }
+
+    .hero-tablet {
+        right: 30vw;
+    }
+
+    .info-div {
+        flex-direction: column;
+        position: relative;
+        right: -35vw;
+        bottom: 60vh;
+    }
+
+    .lower {
+        margin: 0;
+        position: relative;
+        bottom: 20vh;
+    }
+}
