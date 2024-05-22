@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Code Repository](https://github.com/DarkPhoenixNinja92/suite-landing-page)
-- Live Site URL: [GitHub Pages Live Site](darkphoenixninja92.github.io/suite-landing-page)s
+- Solution URL: [GitHub Code Repository](https://github.com/shaunpour/suite-landing-page)
+- Live Site URL: [GitHub Pages Live Site](shaunpour.github.io/suite-landing-page)s
 
 ## My process
 
